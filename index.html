@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quiro Vitae — Clínica de Quiropraxia. Atendimento humanizado, profissionais especializados e agendamento online."
+    />
+    <title>Quiro Vitae | Clínica de Quiropraxia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#inicio"
+          ><span class="logo-mark">✦</span
+          ><span
+            >Quiro<strong>Vitae</strong
+            ><small>CLÍNICA DE QUIROPRAXIA</small></span
+          ></a
+        >
+        <button class="menu-btn" aria-label="Abrir menu">☰</button>
+        <nav id="mainNav">
+          <a href="#inicio">Início</a><a href="#sobre">Sobre</a
+          ><a href="#servicos">Serviços</a>
+          <a href="#especialistas">Especialistas</a
+          ><a href="#depoimentos">Depoimentos</a><a href="#contato">Contato</a
+          ><a href="#" class="open-mine" "btn btn-primary open-booking id="patientNavLink">Minhas consultas</a>
+          <button class="btn btn-primary open-booking">Agendar consulta</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">BEM-VINDO À QUIRO VITAE</span>
+            <h1>A qualidade de vida começa pela <em>sua coluna</em></h1>
+            <p>
+              Quiropraxia é cuidado, prevenção e movimento para você viver com
+              mais saúde e bem-estar todos os dias.
+            </p>
+            <div class="benefits">
+              <span>✦ Alívio da dor</span>
+              <span>♧ Mais mobilidade</span>
+              <span>✚ Bem-estar integral</span>
+            </div>
+            <div class="hero-actions">
+              <button class="btn btn-primary open-booking">
+                Agendar consulta</button
+              ><a class="btn btn-light" href="#servicos">Nossos serviços</a>
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="blob">
+              <img
+                width="380"
+                height="500"
+                src="./img/Copilot_20261008_150258.png"
+                alt="posture1"
+              />
+            </div>
+            <div class="spine-card">
+              <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/posture2.png"
+                alt="posture2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust">
+        <div class="container trust-grid">
+          <div>
+            ◉ <strong>Atendimento Humanizado</strong
+            ><small>Cuidado individual para cada paciente</small>
+          </div>
+          <div>
+            ♧ <strong>Especialistas Certificados</strong
+            ><small>Profissionais experientes e qualificados</small>
+          </div>
+          <div>
+            ♡ <strong>Ambiente Acolhedor</strong
+            ><small>Conforto e segurança para você</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">NOSSOS SERVIÇOS</span>
+              <h2>Tratamentos para<br />uma vida sem dor</h2>
+            </div>
+            <div>
+              <p>
+                Atendimento personalizado com técnicas seguras e eficazes para
+                ajudar você a recuperar saúde, mobilidade e qualidade de vida.
+              </p>
+              <a href="#contato" class="text-link">Falar com a clínica →</a>
+            </div>
+          </div>
+          <div class="cards service-grid">
+            <article class="card service-card">
+              <div class="service-icon">✦</div>
+              <h3>Ajuste Quiroprático</h3>
+              <p>Alívio de dores na coluna, pescoço e articulações.</p>
+              <button
+                class="link-btn choose-service"
+                data-service="Ajuste Quiroprático"
+              >
+                Agendar →
+              </button>
+            </article>
+            <article class="card service-card">
+              <div class="service-icon">⌁</div>
+              <h3>Dores nas Costas</h3>
+              <p>Tratamento especializado para dores lombares e cervicais.</p>
+              <button
+                class="link-btn choose-service"
+                data-service="Dores nas Costas"
+              >
+                Agendar →
+              </button>
+            </article>
+            <article class="card service-card">
+              <div class="service-icon">⌁</div>
+              <h3>Postura e Ergonomia</h3>
+              <p>
+                Orientações práticas para uma postura mais saudável no dia a
+                dia.
+              </p>
+              <button
+                class="link-btn choose-service"
+                data-service="Postura e Ergonomia"
+              >
+                Agendar →
+              </button>
+            </article>
+            <article class="card service-card">
+              <div class="service-icon">✚</div>
+              <h3>Atendimento Esportivo</h3>
+              <p>Prevenção e cuidado para quem pratica atividades físicas.</p>
+              <button
+                class="link-btn choose-service"
+                data-service="Atendimento Esportivo"
+              >
+                Agendar →
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section about">
+        <div class="container about-grid">
+          <div>
+            <span class="eyebrow">SOBRE NÓS</span>
+            <h2>Cuidando de pessoas,<br /><em>transformando vidas</em></h2>
+            <p>
+              A Quiro Vitae nasceu com o propósito de tornar a quiropraxia mais
+              acessível e próxima das pessoas, com atendimento humanizado e
+              tratamentos personalizados.
+            </p>
+            <ul class="checks">
+              <li>Equipe qualificada</li>
+              <li>Tecnologias modernas</li>
+              <li>Tratamentos personalizados</li>
+            </ul>
+          </div>
+          <div class="clinic-photo">
+            <div class="reception">
+              QUIRO<br /><strong>VITAE</strong
+              ><small>Um espaço para cuidar de você.</small>
+            </div>
+          </div>
+          <div class="stats">
+            <strong>+1.500</strong><span>Pacientes atendidos</span
+            ><strong>+12</strong><span>Anos de experiência</span
+            ><strong>98%</strong><span>Satisfação dos pacientes</span
+            ><strong>4.9 ★</strong><span>Avaliação dos pacientes</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="especialistas" class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">NOSSA EQUIPE</span>
+              <h2>Especialistas que<br />cuidam de você</h2>
+            </div>
+          </div>
+          <div class="specialist-grid">
+            <article class="specialist">
+              <div class="avatar male">
+          <img src="./img/Dr.Lucas.png" alt="Foto do Dr. Lucas Martins">
+          </div>
+              <h3>Dr. Lucas Martins</h3>
+              <span>Quiropraxista</span>
+              <p>Especialista em coluna vertebral e terapias manuais.</p>
+            </article>
+            <article class="specialist featured">
+              <div class="avatar female">
+                <img src="./img/Dra.Beatriz.png" alt="Foto da Dra. Ana Beatriz">
+              </div>
+              <h3>Dra. Ana Beatriz</h3>
+              <span>Quiropraxista</span>
+              <p>Pós-graduada em Quiropraxia Esportiva e Ortopédica.</p>
+            </article>
+            <article class="specialist">
+              <div class="avatar male">
+            <img src="./img/Dr.Rafael.png" alt="Foto do Dr. Rafael Souza">
+            </div>
+              <h3>Dr. Rafael Souza</h3>
+              <span>Quiropraxista</span>
+              <p>Especialista em postura e reabilitação.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="depoimentos" class="section testimonials">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">DEPOIMENTOS</span>
+              <h2>Quem cuida, recomenda</h2>
+            </div>
+          </div>
+          <div class="testimonial-grid">
+            <article class="quote">
+              “Depois do tratamento, minhas dores nas costas desapareceram e
+              minha qualidade de vida mudou completamente.”
+              <footer>Mariana Silva · Paciente</footer>
+            </article>
+            <article class="quote">
+              “Profissionais excelentes e atendimento humanizado. Recomendo a
+              todos que buscam mais saúde e bem-estar.”
+              <footer>Carlos Almeida · Paciente</footer>
+            </article>
+            <article class="quote">
+              “Ambiente acolhedor e tratamentos que realmente funcionam. Só
+              tenho a agradecer.”
+              <footer>Juliana Costa · Paciente</footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section contact">
+        <div class="container contact-grid">
+          <div>
+            <span class="eyebrow">FALE CONOSCO</span>
+            <h2>Pronto para se<br /><em>sentir melhor?</em></h2>
+            <p>
+              Agende sua consulta e dê o primeiro passo para uma vida com mais
+              saúde e movimento.
+            </p>
+            <div class="contact-list">
+              <span>Horário: 08h às 18h</span
+              ><span>Rua Coronel Paiva,0000, Natal, RN</span>
+              <span>⌖ Atendimento presencial</span
+              ><span>☎ (84) 99999-9999</span>
+              <span>✉ email: contato@quirovitae.com.br</span>
+            </div>
+          </div>
+          <form id="contactForm" class="card contact-form">
+            <label
+              >Nome<input name="name" required placeholder="Seu nome" /></label
+            ><label
+              >E-mail<input
+                name="email"
+                type="email"
+                required
+                placeholder="voce@email.com" /></label
+            ><label
+              >Mensagem<textarea
+                name="message"
+                required
+                placeholder="Como podemos ajudar?"
+              ></textarea></label
+            ><button class="btn btn-primary">Enviar mensagem</button>
+            <p class="form-feedback" id="contactFeedback"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <a class="logo" href="#inicio"
+          ><span class="logo-mark">✦</span
+          ><span
+            >Quiro<strong>Vitae</strong
+            ><small>CLÍNICA DE QUIROPRAXIA</small></span
+          ></a
+        >
+        <p>
+          © 2026 Quiro Vitae.
+          <img width="21" height="24" src="https://img.icons8.com/forma-thin/24/admin-settings-male.png" alt="admin-settings-male"/>
+          <a href="#admin" class="open-admin">Área da clínica</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="modal" id="bookingModal" aria-hidden="true">
+      <div class="modal-box">
+        <button class="close-modal" aria-label="Fechar">×</button>
+        <div class="booking-head">
+          <span class="eyebrow">AGENDAMENTO ONLINE</span>
+          <h2>Agende sua consulta</h2>
+          <div class="steps">
+            <b>1 Serviço</b><span>→</span><b>2 Profissional</b><span>→</span
+            ><b>3 Data e hora</b><span>→</span><b>4 Seus dados</b>
+          </div>
+        </div>
+        <div class="booking-step active" data-step="1">
+          <h3>Escolha o serviço</h3>
+          <div class="options">
+            <label
+              ><input
+                type="radio"
+                name="service"
+                value="Avaliação Quiroprática|150"
+                checked
+              /><span
+                >Avaliação Quiroprática<small>Consulta inicial completa</small
+                ><strong>R$ 150</strong></span
+              ></label
+            >
+            <label
+              ><input
+                type="radio"
+                name="service"
+                value="Ajuste Quiroprático|120"
+              /><span
+                >Ajuste Quiroprático<small
+                  >Sessão de ajuste e acompanhamento</small
+                ><strong>R$ 120</strong></span
+              ></label
+            >
+            <label
+              ><input
+                type="radio"
+                name="service"
+                value="Dores nas Costas|130"
+              /><span
+                >Dores nas Costas<small>Tratamento especializado</small
+                ><strong>R$ 130</strong></span
+              ></label
+            >
+          </div>
+        </div>
+        <div class="booking-step" data-step="2">
+          <h3>Escolha o profissional</h3>
+          <div class="professional-options">
+            <label
+              ><input
+                type="radio"
+                name="professional"
+                value="Dr. Lucas Martins"
+                checked
+              /><span
+                >Dr. Lucas Martins<small>Quiropraxista</small></span
+              ></label
+            ><label
+              ><input
+                type="radio"
+                name="professional"
+                value="Dra. Ana Beatriz"
+              /><span>Dra. Ana Beatriz<small>Quiropraxista</small></span></label
+            ><label
+              ><input
+                type="radio"
+                name="professional"
+                value="Dr. Rafael Souza"
+              /><span>Dr. Rafael Souza<small>Quiropraxista</small></span></label
+            >
+          </div>
+        </div>
+        <div class="booking-step" data-step="3">
+          <h3>Escolha data e horário</h3>
+          <div class="date-time">
+            <label>Data<input id="bookingDate" type="date" required /></label>
+            <div class="time-grid" id="timeGrid"></div>
+          </div>
+        </div>
+        <div class="booking-step" data-step="4">
+          <h3>Seus dados</h3>
+          <div class="form-grid">
+            <label
+              >Nome completo<input
+                id="clientName"
+                required
+                placeholder="Digite seu nome" /></label
+            ><label
+              >WhatsApp<input
+                id="clientPhone"
+                required
+                placeholder="(84) 99999-9999" /></label
+            ><label class="full"
+              >E-mail<input
+                id="clientEmail"
+                type="email"
+                required
+                placeholder="seu@email.com"
+            /></label>
+          </div>
+          <div class="summary" id="bookingSummary"></div>
+        </div>
+        <div class="booking-footer">
+          <button class="btn btn-light" id="prevStep">Voltar</button
+          ><button class="btn btn-primary" id="nextStep">Continuar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal patient-area-modal" id="mineModal" aria-hidden="true">
+      <div class="modal-box wide patient-area-box">
+        <button class="close-modal" data-close aria-label="Fechar">×</button>
+        <h2 class="m-title">Área do paciente</h2>
+        <p class="m-sub">Entre com seu e-mail e senha para consultar seus agendamentos, sessões e pagamentos.</p>
+        <form id="patientLoginForm" class="login-form">
+          <label>E-mail<input id="patientLoginEmail" type="email" required autocomplete="username" placeholder="voce@email.com"></label>
+          <label>Senha<input id="patientLoginPass" type="password" required autocomplete="current-password" placeholder="Sua senha"></label>
+          <button class="btn btn-primary">Entrar</button>
+          <p class="login-error" id="patientLoginError" role="alert"></p>
+        </form>
+        <p class="m-sub">Ainda não tem acesso? <button type="button" class="link-btn" id="showPatientRegister">Criar cadastro</button></p>
+        <div id="patientDashboard" hidden>
+          <div class="patient-welcome"><div><h3 id="patientWelcomeName"></h3><p class="m-sub">Acompanhe suas consultas e seu pacote.</p></div><button class="btn btn-light" id="patientLogout">Sair</button></div>
+          <div id="patientPackage"></div>
+          <h3>Minhas consultas</h3><div id="mineList"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="patientRegisterModal" aria-hidden="true">
+      <div class="modal-box">
+        <button class="close-modal" data-close aria-label="Fechar">×</button>
+        <h2 class="m-title">Criar cadastro</h2>
+        <p class="m-sub">Use o mesmo e-mail informado ao agendar sua consulta.</p>
+        <form id="patientRegisterForm" class="login-form">
+          <label>Nome completo<input id="registerName" required autocomplete="name" placeholder="Seu nome"></label>
+          <label>Telefone<input id="registerPhone" required autocomplete="tel" placeholder="(84) 99999-9999"></label>
+          <label>E-mail<input id="registerEmail" type="email" required autocomplete="email" placeholder="voce@email.com"></label>
+          <label>Crie uma senha<input id="registerPass" type="password" minlength="8" required autocomplete="new-password" placeholder="Mínimo de 8 caracteres"></label>
+          <label>Confirme a senha<input id="registerPassConfirm" type="password" minlength="8" required autocomplete="new-password"></label>
+          <button class="btn btn-primary">Criar minha conta</button>
+          <p class="login-error" id="patientRegisterError" role="alert"></p>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="adminModal" aria-hidden="true">
+      <div class="modal-box wide">
+        <button class="close-modal" data-close aria-label="Fechar">×</button>
+        <button class="btn btn-light logout" id="adminLogout">Sair</button>
+        <h2 class="m-title">Presença nas sessões</h2>
+        <p class="m-sub">Registre quem compareceu em cada dia e horário.</p>
+        <h3>Pacotes e pagamentos</h3>
+        <p class="m-sub">Cadastre ou atualize o pacote vinculado ao e-mail do paciente.</p>
+        <form id="packageForm" class="package-form">
+          <label>E-mail do paciente<input id="packageEmail" type="email" required placeholder="paciente@email.com"></label>
+          <label>Nome do pacote<input id="packageName" required placeholder="Ex.: Pacote de quiropraxia"></label>
+          <label>Sessões contratadas<input id="packageSessions" type="number" min="1" required value="10"></label>
+          <label>Valor total (R$)<input id="packagePrice" type="number" min="0" step="0.01" required placeholder="1000.00"></label>
+          <label>Forma de pagamento<select id="packagePayment" required><option value="">Selecione</option><option>Pix</option><option>Dinheiro</option><option>Cartão de débito</option><option>Cartão de crédito</option><option>Transferência bancária</option><option>Boleto</option></select></label>
+          <label>Quantidade de parcelas<input id="packageInstallments" type="number" min="1" required value="1"></label>
+          <label>Parcelas já pagas<input id="packagePaidInstallments" type="number" min="0" required value="0"></label>
+          <label class="full">Observações (opcional)<input id="packageNotes" placeholder="Ex.: vencimento todo dia 10"></label>
+          <button class="btn btn-primary">Salvar pacote</button>
+          <p class="login-error" id="packageFeedback" role="status"></p>
+        </form>
+        <div id="adminPackages"></div>
+        <div class="att-stats" id="adminStats"></div>
+        <h3>Agendamentos e presença</h3>
+        <div id="adminList"></div>
+      </div>
+    </div>
+
+    <div class="modal" id="loginModal" aria-hidden="true">
+      <div class="modal-box login-box">
+        <button class="close-modal" data-close aria-label="Fechar">×</button>
+        <h2 class="m-title">Acesso da clínica</h2>
+        <p class="m-sub">Área restrita à administração.</p>
+        <form id="loginForm" class="login-form">
+          <label
+            >E-mail<input
+              id="admEmail"
+              type="email"
+              required
+              autocomplete="username" /></label
+          ><label
+            >Senha<input
+              id="admPass"
+              type="password"
+              required
+              autocomplete="current-password" /></label
+          ><button class="btn btn-primary">Entrar</button>
+          <p class="login-error" id="loginError" role="alert"></p>
+        </form>
+      </div>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
